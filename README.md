@@ -135,7 +135,7 @@ error response body:
 -LLM may hallucinate — system validates numeric fields and flags suspicious outputs for manual review
 
 
-#AI tools usage (brief)
+#AI tools usage 
 
 -1 Tools used
 OpenAI (GPT-4 / GPT-4o-mini) — main LLM for parsing and recommendations.
@@ -155,7 +155,7 @@ Comparison
 “Given proposals (JSON list), score each from 0–10 based on price, delivery, warranty, spec match; return scores and short reason.”
 
 
-# What I learned / changes due to AI tools
+#what i have learned or changed bcs of these tools
   - provide field examples and explicit formats.
 -Always validate numeric outputs (price/days) after model returns them.
 -Use simple fallback rules (e.g., if price not found, prompt user) to ensure safety.
